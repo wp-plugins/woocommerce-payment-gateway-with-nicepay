@@ -11,6 +11,10 @@ Developer : Thomas Jang ( thomas@planet8.co )
 */
 if ( ! defined( 'ABSPATH' ) ) exit;
 
+// Define
+define( PRODUCT_ID, 'wordpress-nicepay' );
+define( PRODUCT_VERSION, '1.0.0' );
+
 add_action( 'plugins_loaded', 'woocommerce_nicepay_init', 0 );
 
 function woocommerce_nicepay_init() {
