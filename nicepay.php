@@ -996,6 +996,8 @@ class WC_Gateway_NicePay extends WC_Payment_Gateway {
 
 		echo '<div class="p8-checkout-txt">' . __( 'Powered by <a href="http://planet8.co" target="_blank">Planet8</a>.', 'wc-gateway-nicepay' ) . '</div>';
 
+		require_once dirname( __FILE__ ) . '/bin/lib/Version.php';
+
 		$currency_check = $this->currency_check( $order, $this->allowed_currency );
 
 		if ( $currency_check ) {
