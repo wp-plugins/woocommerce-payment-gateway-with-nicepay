@@ -735,13 +735,13 @@ class WC_Gateway_NicePay extends WC_Payment_Gateway {
 				)
 			),
 			'LogoImage' => array(
-				'title' => __( 'Checkout Processing Image', 'wc-gateway-nicepay' ),
+				'title' => __( 'Logo Image', 'wc-gateway-nicepay' ),
 				'type' => 'txt_info_empty',
 				'txt' => __( 'This feature is only available in the PRO version.', 'wc-gateway-nicepay' ),
 				'description' => __( 'Please select or upload your logo. The size should be 95*35. You can use GIF/JPG/PNG.', 'wc-gateway-nicepay' ),
 			),	
 			'BgImage' => array(
-				'title' => __( 'Checkout Processing Image', 'wc-gateway-nicepay' ),
+				'title' => __( 'Background Image', 'wc-gateway-nicepay' ),
 				'type' => 'txt_info_empty',
 				'txt' => __( 'This feature is only available in the PRO version.', 'wc-gateway-nicepay' ),
 				'description' => __( 'Please select or upload your image for the background of the payment window. The size should be 505*512. You can use GIF/JPG/PNG.', 'wc-gateway-nicepay' ),
