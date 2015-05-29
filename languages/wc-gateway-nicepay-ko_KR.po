@@ -1,0 +1,822 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Payment Gateway with NicePay\n"
+"POT-Creation-Date: 2015-05-26 18:14+0900\n"
+"PO-Revision-Date: 2015-05-26 18:14+0900\n"
+"Last-Translator: \n"
+"Language-Team: Planet8 <thomas@planet8.co>\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8beta1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../nicepay.php:27
+msgid "Settings"
+msgstr "환경설정"
+
+#: ../nicepay.php:45 ../nicepay.php:979
+msgid "Virtual Account Information"
+msgstr "가상계좌 정보"
+
+#: ../nicepay.php:48 ../nicepay.php:982
+msgid "Virtual Account Bank Name"
+msgstr "가상계좌 은행명"
+
+#: ../nicepay.php:49 ../nicepay.php:983
+msgid "Virtual Account No"
+msgstr "가상계좌 번호"
+
+#: ../nicepay.php:50 ../nicepay.php:984
+msgid "Incoming Due Date"
+msgstr "입금예정일"
+
+#: ../nicepay.php:61 ../nicepay.php:96
+msgid "On Delivery"
+msgstr "배송중"
+
+#: ../nicepay.php:66
+#, php-format
+msgid "On delivery <span class=\"count\">(%s)</span>"
+msgstr "배송중 <span class=\"count\">(%s)</span>"
+
+#: ../nicepay.php:69 ../nicepay.php:97 ../nicepay.php:501
+msgid "Decline Delivery"
+msgstr "구매취소"
+
+#: ../nicepay.php:74
+#, php-format
+msgid "Decline delivery <span class=\"count\">(%s)</span>"
+msgstr "구매취소 <span class=\"count\">(%s)</span>"
+
+#: ../nicepay.php:77 ../nicepay.php:98
+msgid "Awaiting Payment"
+msgstr "입금대기중"
+
+#: ../nicepay.php:82
+#, php-format
+msgid "Awaiting payment <span class=\"count\">(%s)</span>"
+msgstr "입금대기중 <span class=\"count\">(%s)</span>"
+
+#: ../nicepay.php:267
+msgid "Refund Order"
+msgstr "주문 환불하기"
+
+#: ../nicepay.php:268
+msgid "Order Delivery (Escrow)"
+msgstr "배송 등록 (에스크로)"
+
+#: ../nicepay.php:322 ../nicepay.php:453
+msgid "Are you sure you want to continue the refund?"
+msgstr "이 주문에 대한 환불을 계속 하시겠습니까?"
+
+#: ../nicepay.php:324
+msgid ""
+"By clicking the 'Refund' button below, this order will be refunded and "
+"cancelled."
+msgstr "'환불' 버튼을 누르시면 결제가 취소되며 환불처리 됩니다."
+
+#: ../nicepay.php:327 ../nicepay.php:473 ../nicepay.php:699
+msgid "Refund"
+msgstr "환불하기"
+
+#: ../nicepay.php:331
+msgid "This order has already been refunded."
+msgstr "이 주문은 이미 환불 되었습니다."
+
+#: ../nicepay.php:333
+msgid ""
+"This order cannot be refunded since delivery information has already been "
+"sent. Please contact the customer to decline the delivery first. You must "
+"'enable' the customer decline delivery settings."
+msgstr ""
+"이 주문은 에스크로 배송등록이 되었기 때문에 환불 할 수 없습니다. 고객에게 연"
+"락하여 '구매 취소'를 먼저 진행하여 주시길 바랍니다. '고객 구매취소' 설정이 활"
+"성화 되어있어야 합니다."
+
+#: ../nicepay.php:336
+#, php-format
+msgid "This order cannot be refunded. Refundable order status is(are): %s"
+msgstr "이 주문은 환불이 불가능합니다. 환불이 가능한 주문의 상태는: %s 입니다."
+
+#: ../nicepay.php:340
+#, php-format
+msgid ""
+"There are no refundable order status. Please set them first <a "
+"href='%s'>here</a>."
+msgstr ""
+"환불 가능한 주문 상태가 설정되지 않았습니다. <a href='%s'>여기</a>서 먼저 설"
+"정해주세요."
+
+#: ../nicepay.php:368
+msgid "Are you sure you want to continue sending delivery information?"
+msgstr "이 주문의 배송 등록을 계속 하시겠습니까?"
+
+#: ../nicepay.php:370
+msgid "Delivery information has already been sent."
+msgstr "배송 정보가 이미 전송 되었습니다."
+
+#: ../nicepay.php:374
+msgid ""
+"Fill in the form and click the button below to send delivery information."
+msgstr "배송 등록을 하시려면 아래의 폼을 입력 하신 후 버튼을 눌러주세요."
+
+#: ../nicepay.php:379
+msgid ""
+"This order is on delivery, but delivery information has not been sent. If "
+"you want to send delivery information, please fill in the form and click the "
+"button below."
+msgstr ""
+"이 제품은 배송중이지만, 배송 정보가 아직 등록되지 않았습니다. 배송 정보를 등"
+"록하시려면 아래의 폼을 입력 하신 후 버튼을 눌러주세요."
+
+#: ../nicepay.php:384
+msgid ""
+"You cannot send any delivery information regarding this order beacuse of the "
+"order status."
+msgstr "이 주문의 상태 때문에 배송 정보 등록을 할 수 없습니다."
+
+#: ../nicepay.php:406
+msgid "Company: "
+msgstr "배송업체: "
+
+#: ../nicepay.php:410
+msgid "Tracking No.: "
+msgstr "송장번호: "
+
+#: ../nicepay.php:416 ../nicepay.php:430
+msgid "Company"
+msgstr "배송업체"
+
+#: ../nicepay.php:418
+msgid "Select a company..."
+msgstr "배송업체를 선택해주세요"
+
+#: ../nicepay.php:424 ../nicepay.php:433
+msgid "Tracking No."
+msgstr "송장번호"
+
+#: ../nicepay.php:439
+msgid "Send Information"
+msgstr "정보 보내기"
+
+#: ../nicepay.php:445
+#, php-format
+msgid ""
+"Escrow settings are not set for this order's payment method. Please set them "
+"first <a href='%s'>here</a>."
+msgstr ""
+"에스크로가 설정되지 않았습니다. <a href='%s'>여기</a>서 먼저 설정해주세요."
+
+#: ../nicepay.php:454
+msgid "Are you sure you want to decline the delivery?"
+msgstr "구매 취소를 계속 하시겠습니까?"
+
+#: ../nicepay.php:455
+msgid "Enter your auth num."
+msgstr "주문 당시 입력하신 인증번호를 입력해주세요 (휴대폰/사업자번호)"
+
+#: ../nicepay.php:511
+msgid "Confirm Delivery"
+msgstr "구매확정"
+
+#: ../nicepay.php:605
+msgid "General Settings"
+msgstr "일반 설정"
+
+#: ../nicepay.php:609
+msgid "Enable/Disable"
+msgstr "활성화/비활성화"
+
+#: ../nicepay.php:611
+msgid "Enable this method."
+msgstr "결제수단 활성화."
+
+#: ../nicepay.php:615 ../nicepay.php:780
+msgid "Enable/Disable Test Mode"
+msgstr "테스트 모드 활성화/비활성화"
+
+#: ../nicepay.php:617
+msgid "Enable test mode."
+msgstr "테스트 모드가 활성화 됩니다."
+
+#: ../nicepay.php:622
+msgid "Title"
+msgstr "제목"
+
+#: ../nicepay.php:624
+msgid ""
+"Title that users will see during checkout. You can customize this in the PRO "
+"version."
+msgstr ""
+"체크아웃시 사용자가 보게 될 제목입니다. 프로 버전에서 수정할 수 있습니다."
+
+#: ../nicepay.php:628
+msgid "Description"
+msgstr "설명"
+
+#: ../nicepay.php:630
+msgid ""
+"Description that users will see during checkout. You can customize this in "
+"the PRO version."
+msgstr ""
+"체크아웃시 사용자가 보게 될 설명입니다. 프로 버전에서 수정할 수 있습니다."
+
+#: ../nicepay.php:634
+msgid "MID"
+msgstr "머천트 ID"
+
+#: ../nicepay.php:636
+msgid "Please enter your NicePay MID."
+msgstr "NicePay 머천트 ID (Merchant ID)를 입력해주세요."
+
+#: ../nicepay.php:640
+msgid "Merchant Key"
+msgstr "머천트 키"
+
+#: ../nicepay.php:642
+msgid "Please enter your NicePay Merchant Key."
+msgstr "NicePay 머천트 키 (Merchant Key)를 입력해주세요."
+
+#: ../nicepay.php:646
+msgid "Cancel Key"
+msgstr "취소 키"
+
+#: ../nicepay.php:648
+msgid "Please enter your NicePay Cancel Key."
+msgstr "NicePay 취소 키 (Cancel Key)를 입력해주세요."
+
+#: ../nicepay.php:652
+msgid "Expiry time in days"
+msgstr "입금 기한"
+
+#: ../nicepay.php:654
+msgid "Select the virtual account transfer expiry time in days."
+msgstr "가상계좌 입금 기한을 선택해 주세요."
+
+#: ../nicepay.php:656
+msgid "1 day"
+msgstr "1일"
+
+#: ../nicepay.php:657
+msgid "2 days"
+msgstr "2일"
+
+#: ../nicepay.php:658
+msgid "3 days"
+msgstr "3일"
+
+#: ../nicepay.php:659
+msgid "4 days"
+msgstr "4일"
+
+#: ../nicepay.php:660
+msgid "5 days"
+msgstr "5일"
+
+#: ../nicepay.php:661
+msgid "6 days"
+msgstr "6일"
+
+#: ../nicepay.php:662
+msgid "7 days"
+msgstr "7일"
+
+#: ../nicepay.php:663
+msgid "8 days"
+msgstr "8일"
+
+#: ../nicepay.php:664
+msgid "9 days"
+msgstr "9일"
+
+#: ../nicepay.php:665
+msgid "10 days"
+msgstr "10일"
+
+#: ../nicepay.php:670
+msgid "Escrow Settings"
+msgstr "에스크로 설정"
+
+#: ../nicepay.php:672 ../nicepay.php:678 ../nicepay.php:684 ../nicepay.php:711
+#: ../nicepay.php:736 ../nicepay.php:742 ../nicepay.php:748 ../nicepay.php:754
+#: ../nicepay.php:760
+msgid "This feature is only available in the PRO version."
+msgstr "이 기능은 프로 버전에서만 지원합니다."
+
+#: ../nicepay.php:673
+msgid "Force escrow settings."
+msgstr "거래를 에스크로로 진행합니다."
+
+#: ../nicepay.php:676
+msgid "Send Confirmation Mail"
+msgstr "구매확정 이메일"
+
+#: ../nicepay.php:679
+msgid "Send confirmation mail to customer."
+msgstr "고객에게 구매확정 이메일을 전송합니다."
+
+#: ../nicepay.php:682
+msgid "Enable Customer Decline Delivery"
+msgstr "고객 구매취소"
+
+#: ../nicepay.php:685
+msgid "Show decline delivery button to customer."
+msgstr "에스크로 거래에서 고객에게 '구매 취소' 버튼을 표시합니다."
+
+#: ../nicepay.php:692
+msgid "Refund Settings"
+msgstr "환불 설정"
+
+#: ../nicepay.php:696
+msgid "Refund Button Text"
+msgstr "환불 버튼 텍스트"
+
+#: ../nicepay.php:698
+msgid "Text for refund button that users will see."
+msgstr "환불 버튼에 들어갈 텍스트입니다."
+
+#: ../nicepay.php:702
+msgid "Refundable Status for Administrator"
+msgstr "관리자 환불가능 상태"
+
+#: ../nicepay.php:705 ../nicepay.php:712
+msgid "Select the order status for allowing refund."
+msgstr "환불 가능한 주문 상태를 선택해주세요."
+
+#: ../nicepay.php:709
+msgid "Refundable Satus for Customer"
+msgstr "고객 환불가능 상태"
+
+#: ../nicepay.php:719
+msgid "Design Settings"
+msgstr "디자인 설정"
+
+#: ../nicepay.php:723
+msgid "Skin Type"
+msgstr "스킨 종류"
+
+#: ../nicepay.php:725
+msgid "Select the skin type for your NicePay form."
+msgstr "NicePay 폼에 사용하실 스킨 색을 지정 하세요."
+
+#: ../nicepay.php:734 ../nicepay.php:740 ../nicepay.php:746
+msgid "Checkout Processing Image"
+msgstr "결제 진행중 이미지"
+
+#: ../nicepay.php:737
+msgid ""
+"Please select or upload your logo. The size should be 95*35. You can use GIF/"
+"JPG/PNG."
+msgstr ""
+"로고를 선택하시거나 업로드해 주세요. 95*35 픽셀이 권장 사이즈 입니다. GIF/"
+"JPG/PNG 파일을 사용하실 수 있습니다."
+
+#: ../nicepay.php:743
+msgid ""
+"Please select or upload your image for the background of the payment window. "
+"The size should be 505*512. You can use GIF/JPG/PNG."
+msgstr ""
+"배경 이미지를 선택하시거나 업로드해 주세요. 505*512 픽셀이 권장 사이즈 입니"
+"다. GIF/JPG/PNG 파일을 사용하실 수 있습니다."
+
+#: ../nicepay.php:749
+msgid ""
+"Please select or upload your image for the checkout processing page. Leave "
+"blank to show no image."
+msgstr ""
+"결제 진행중 이미지를 선택하시거나 업로드해 주세요. 사용하지 않으시려면 빈 칸"
+"으로 두세요."
+
+#: ../nicepay.php:752
+msgid "Checkout Processing Text"
+msgstr "결제 진행중 텍스트"
+
+#: ../nicepay.php:755
+msgid ""
+"Text that users will see on the checkout processing page. You can use some "
+"HTML tags as well."
+msgstr ""
+"결제 진행시 사용자들이 볼 수 있는 텍스트 입니다. 간단한 HTML 태그를 사용하실 "
+"수 있습니다."
+
+#: ../nicepay.php:758
+msgid "Chrome Message"
+msgstr "크롬 메시지"
+
+#: ../nicepay.php:761
+msgid "Show steps to enable NPAPI for Chrome users."
+msgstr "크롬 사용자들에게 NPAPI 활성화 방법을 표시합니다."
+
+#: ../nicepay.php:769
+msgid "Callback URL"
+msgstr "콜백 URL"
+
+#: ../nicepay.php:772
+msgid "Callback URL used for payment notice from NicePay."
+msgstr ""
+"NicePay 상점관리자의 '가맹점정보' -> '가상계좌 URL/IP'에 입력하실 URL 입니다."
+
+#: ../nicepay.php:782
+msgid "You cannot test this payment method."
+msgstr "이 결제 방법은 테스트 하실 수 없습니다."
+
+#: ../nicepay.php:921
+msgid "Preview"
+msgstr "미리보기"
+
+#: ../nicepay.php:946
+msgid "Want the PRO version?"
+msgstr "프로 버전을 원하십니까?"
+
+#: ../nicepay.php:946
+msgid ""
+"Visit <a href=\"http://planet8.co\" target=\"_blank\">http://planet8.co</a>! "
+"You can remove our watermarks and customize many options!"
+msgstr ""
+"<a href=\"http://planet8.co\" target=\"_blank\">http://planet8.co</a> 사이트"
+"를 방문해주세요! 워터 마크 제거 및 여러 옵션을 사용하실 수 있습니다!"
+
+#: ../nicepay.php:949
+msgid "Test mode is enabled!"
+msgstr "테스트 모드가 활성화 되어있습니다!"
+
+#: ../nicepay.php:949
+msgid "Please disable test mode if you aren't testing anything."
+msgstr "테스트 중이 아니시라면, 테스트 모드를 비활성화 해주세요."
+
+#: ../nicepay.php:952 ../nicepay.php:954 ../nicepay.php:956 ../nicepay.php:962
+msgid "Gateway Disabled"
+msgstr "게이트웨이 비활성화"
+
+#: ../nicepay.php:952
+msgid "You haven't entered a Merchant ID yet!"
+msgstr "머천트 아이디 (Merchant ID)를 입력해 주세요!"
+
+#: ../nicepay.php:954
+msgid "You haven't entered a Merchant Key yet!"
+msgstr "머천트 키 (Merchant Key)를 입력해 주세요!"
+
+#: ../nicepay.php:956
+msgid "You haven't entered a Cancel Key yet!"
+msgstr "취소 키 (Cancel Key)를 입력해 주세요!"
+
+#: ../nicepay.php:962 ../nicepay.php:1006
+#, php-format
+msgid ""
+"Your currency (%s) is not supported by this payment method. This payment "
+"method only supports: %s."
+msgstr ""
+"현재 사용하는 통화 (%s) 는 이 결제 방법에서 사용할 수 없습니다. 사용 가능한 "
+"통화는 다음과 같습니다: %s."
+
+#: ../nicepay.php:964
+msgid "Please Note"
+msgstr "참고 사항"
+
+#: ../nicepay.php:964
+#, php-format
+msgid ""
+"Your currency (%s) is not recommended by this payment method. This payment "
+"method recommeds the following currency: %s."
+msgstr ""
+"현재 사용하는 통화 (%s) 는 이 결제 방법에서 권장하지 않습니다. 권장 통화는 다"
+"음과 같습니다: %s."
+
+#: ../nicepay.php:995
+msgid "Please wait while your payment is being processed."
+msgstr "결제가 진행중입니다. 잠시만 기다려주세요."
+
+#: ../nicepay.php:997
+msgid "Powered by <a href=\"http://planet8.co\" target=\"_blank\">Planet8</a>."
+msgstr ""
+"Powered by <a href=\"http://planet8.co\" target=\"_blank\">Planet8</a>."
+
+#: ../nicepay.php:1159 ../nicepay.php:1227
+#, php-format
+msgid "You cannot use this payment method (%s) for amounts less than 500 Won."
+msgstr "이 결제방식(%s)은 500원 미만의 결제에서 사용 하실 수 없습니다."
+
+#: ../nicepay.php:1162 ../nicepay.php:1230
+msgid "Please enter more than 2 characters for your name."
+msgstr "이름을 두 글자 이상 입력해주세요."
+
+#: ../nicepay.php:1193
+msgid "Your transaction has been cancelled."
+msgstr "거래가 취소되었습니다."
+
+#: ../nicepay.php:1271
+#, php-format
+msgid "Starting payment process. Timestamp: %s."
+msgstr "결제 프로세스를 시작합니다. 타임스탬프: %s."
+
+#: ../nicepay.php:1275 ../nicepay.php:1276 ../nicepay.php:1281
+#: ../nicepay.php:1282
+msgid " (Mobile)"
+msgstr " (모바일)"
+
+#: ../nicepay.php:1464 ../nicepay.php:1590
+#, php-format
+msgid "Failed to verify integrity of payment. Timestamp: %s."
+msgstr "거래금액 검증에 실패하였습니다. 타임스탬프: %s."
+
+#: ../nicepay.php:1479 ../nicepay.php:1604
+#, php-format
+msgid ""
+"Waiting for payment. Payment method: %s. Bank Name: %s. Bank Account: %s. "
+"NicePay TID: %s. Timestamp: %s."
+msgstr ""
+"입금 대기중. 결제방법: %s. 은행이름: %s. 은행계좌: %s. NicePay TID: %s. 타임"
+"스탬프: %s."
+
+#: ../nicepay.php:1482 ../nicepay.php:1608
+#, php-format
+msgid ""
+"Payment is complete. Payment method: %s. NicePay TID: %s. Timestamp: %s."
+msgstr "결제 통보 수신 완료. 결제방법: %s. NicePay TID: %s.  타임스탬프: %s."
+
+#: ../nicepay.php:1502 ../nicepay.php:1615
+#, php-format
+msgid "Payment request received but order is already completed. Timestamp: %s."
+msgstr "결제 요청을 받았지만, 이 거래는 이미 완료되었습니다. 타임스탬프: %s."
+
+#: ../nicepay.php:1507 ../nicepay.php:1617
+#, php-format
+msgid "Payment request received but order is in processing. Timestamp: %s."
+msgstr ""
+"결제 요청을 받았지만, 이 거래는 현재 입금 대기중 입니다. 타임스탬프: %s."
+
+#: ../nicepay.php:1512 ../nicepay.php:1619
+#, php-format
+msgid "Payment failed. Response message: %s. Timestamp: %s."
+msgstr "결제 실패. 수신 메세지: %s. 타임스탬프: %s."
+
+#: ../nicepay.php:1646
+#, php-format
+msgid ""
+"CAS notification received. Payment method: %s. NicePay TID: %s. Timestamp: "
+"%s."
+msgstr "CAS 통보 수신 완료. 결제방법: %s. NicePay TID: %s. 타임스탬프: %s."
+
+#: ../nicepay.php:1668 ../nicepay.php:1740
+msgid "Order does not exist. Refund failed."
+msgstr "주문이 존재하지 않습니다. 환불에 실패하였습니다."
+
+#: ../nicepay.php:1687
+msgid "Customer cancel"
+msgstr "고객 취소"
+
+#: ../nicepay.php:1689
+msgid "Administrator cancel"
+msgstr "관리자 취소"
+
+#: ../nicepay.php:1714
+#, php-format
+msgid "Order has been refunded by customer. Timestamp: %s."
+msgstr "고객에 의해 주문이 환불되었습니다. 타임스탬프: %s."
+
+#: ../nicepay.php:1716
+#, php-format
+msgid "Order has been refunded by administrator. Timestamp: %s."
+msgstr "관리자에 의해 주문이 환불되었습니다. 타임스탬프: %s."
+
+#: ../nicepay.php:1721
+msgid "Order has been refunded."
+msgstr "주문이 환불되었습니다."
+
+#: ../nicepay.php:1724
+#, php-format
+msgid ""
+"Refund request received but an error has occurred. Message: %s. Timestamp: "
+"%s."
+msgstr ""
+"환불 요청을 받았지만 오류가 발생하였습니다. 메세지: %s. 타임스탬프: %s."
+
+#: ../nicepay.php:1728
+#, php-format
+msgid "Refund request received but an error has occurred. Message: %s."
+msgstr "환불 요청을 받았지만 오류가 발생하였습니다. 메세지: %s."
+
+#: ../nicepay.php:1734
+msgid "TID does not exist. Refund failed."
+msgstr "TID가 존재하지 않습니다. 환불에 실패하였습니다."
+
+#: ../nicepay.php:1778
+msgid "Order does not exist. Sending escrow information failed."
+msgstr "주문이 존재하지 않습니다. 에스크로 정보 전송에 실패하였습니다."
+
+#: ../nicepay.php:1841 ../nicepay.php:1860
+#, php-format
+msgid "Escrow request has been successfully sent. Timestamp: %s."
+msgstr "에스크로 정보 전송에 성공하였습니다. 타임스탬프: %s."
+
+#: ../nicepay.php:1845 ../nicepay.php:1854 ../nicepay.php:1864
+msgid "Escrow request has been successfully sent."
+msgstr "에스크로 정보 전송에 성공하였습니다."
+
+#: ../nicepay.php:1850
+#, php-format
+msgid ""
+"Escrow refund request has been successfully sent. Order has been refunded. "
+"Timestamp: %s."
+msgstr "에스크로 구매 취소 정보 전송에 성공하였습니다. 타임스탬프: %s."
+
+#: ../nicepay.php:1868
+#, php-format
+msgid ""
+"Escrow request received but an error has occurred. Message: %s. Timestamp: "
+"%s."
+msgstr ""
+"에스크로 요청을 받았지만 오류가 발생하였습니다. 메세지: %s. 타임스탬프: %s."
+
+#: ../nicepay.php:1872
+#, php-format
+msgid "Escrow request received but an error has occurred. Message: %s."
+msgstr "에스크로 요청을 받았지만 오류가 발생하였습니다. 메세지: %s."
+
+#: ../nicepay.php:1878
+msgid "Request type does not exist. Escrow request failed."
+msgstr "에스크로 요청 종류가 지정되지 않았습니다."
+
+#: ../nicepay.php:1884
+msgid "TID does not exist. Escrow request failed."
+msgstr "TID가 존재하지 않습니다. 에스크로 요청에 실패하였습니다."
+
+#: ../nicepay.php:1890
+msgid "Order does not exist. Escrow request failed."
+msgstr "주문이 존재하지 않습니다. 에스크로 요청에 실패하였습니다."
+
+#: ../nicepay.php:1896
+msgid "Tracking number does not exist. Escrow request failed."
+msgstr "송장번호가 존재하지 않습니다. 에스크로 요청에 실패하였습니다."
+
+#: ../nicepay.php:1902
+msgid "Delivery company name does not exist. Escrow request failed."
+msgstr "배송업체명이 존재하지 않습니다. 에스크로 요청에 실패하였습니다."
+
+#: ../nicepay.php:1908
+msgid "The authorization number you have entered is incorrect."
+msgstr "인증번호(휴대폰/사업자번호)가 맞지 않습니다."
+
+#: ../nicepay.php:1912
+msgid ""
+"There was a problem while processing your request. Please contact the "
+"administrator."
+msgstr "요청을 처리하는 동안 오류가 발생했습니다. 관리자에게 문의하십시오."
+
+#: ../nicepay.php:1956
+msgid "Credit Card"
+msgstr "신용카드"
+
+#: ../nicepay.php:1959
+msgid "Account Transfer"
+msgstr "계좌이체"
+
+#: ../nicepay.php:1962
+msgid "Virtual Account"
+msgstr "가상계좌"
+
+#: ../nicepay.php:1965
+msgid "Mobile Payment"
+msgstr "휴대폰 소액결제"
+
+#: ../nicepay.php:2062
+msgid "NicePay Credit Card"
+msgstr "NicePay 신용카드"
+
+#: ../nicepay.php:2063
+msgid "NicePay Mobile Payment"
+msgstr "NicePay 휴대폰 소액결제"
+
+#: ../nicepay.php:2064
+msgid "NicePay Account Transfer"
+msgstr "NicePay 계좌이체"
+
+#: ../nicepay.php:2065
+msgid "NicePay Virtual Account"
+msgstr "NicePay 가상계좌"
+
+#: ../nicepay.php:2066
+msgid "Credit Card - Powered by Planet8"
+msgstr "신용카드 - Powered by Planet8"
+
+#: ../nicepay.php:2067
+msgid "Mobile Payment - Powered by Planet8"
+msgstr "휴대폰 소액결제 - Powered by Planet8"
+
+#: ../nicepay.php:2068
+msgid "Account Transfer - Powered by Planet8"
+msgstr "계좌이체 - Powered by Planet8"
+
+#: ../nicepay.php:2069
+msgid "Virtual Account - Powered by Planet8"
+msgstr "가상계좌 - Powered by Planet8"
+
+#: ../nicepay.php:2070
+msgid "Payment via credit card - Powered by Planet8"
+msgstr "신용카드로 결제를 진행합니다 - Powered by Planet8"
+
+#: ../nicepay.php:2071
+msgid "Payment via mobile phone - Powered by Planet8"
+msgstr "휴대폰 소액결제로 결제를 진행합니다 - Powered by Planet8"
+
+#: ../nicepay.php:2072
+msgid "Payment via real time account transfer - Powered by Planet8"
+msgstr "실시간 계좌이체로 결제를 진행합니다 - Powered by Planet8"
+
+#: ../nicepay.php:2073
+msgid "Payment via virtual account transfer - Powered by Planet8"
+msgstr "가상계좌로 결제를 진행합니다 - Powered by Planet8"
+
+#~ msgid "Title that users will see during checkout."
+#~ msgstr "체크아웃시 사용자가 보게 될 제목입니다."
+
+#~ msgid "Description that users will see during checkout."
+#~ msgstr "체크아웃시 사용자가 보게 될 설명입니다."
+
+#~ msgid "Logo Image"
+#~ msgstr "로고 이미지"
+
+#~ msgid "Select/Upload Logo"
+#~ msgstr "로고 선택/업로드"
+
+#~ msgid "Remove Logo"
+#~ msgstr "로고 제거"
+
+#~ msgid "Background Image"
+#~ msgstr "배경 이미지"
+
+#~ msgid "Select/Upload Background"
+#~ msgstr "배경 선택/업로드"
+
+#~ msgid "Remove Background"
+#~ msgstr "배경 제거"
+
+#~ msgid "Select/Upload Image"
+#~ msgstr "이미지 선택/업로드"
+
+#~ msgid "Remove Image"
+#~ msgstr "이미지 제거"
+
+#~ msgid "Use Default"
+#~ msgstr "기본값 사용"
+
+#~ msgid ""
+#~ "<strong>Please wait while your payment is being processed.</strong>\n"
+#~ "If you see this page for a long time, please try to refresh the page."
+#~ msgstr ""
+#~ "<strong>결제가 진행중입니다. 잠시만 기다려 주세요.</strong>\n"
+#~ "이 화면이 오랜 시간동안 유지된다면, 페이지를 새로고침 해주세요."
+
+#~ msgid "Callback URL used for payment notice from nicepay."
+#~ msgstr ""
+#~ "NicePay 상점관리자의 '가맹점정보' -> '가상계좌 URL/IP'에 입력하실 URL 입니"
+#~ "다."
+
+#~ msgid "Open"
+#~ msgstr "열기"
+
+#~ msgid "Close"
+#~ msgstr "닫기"
+
+#~ msgid "Planet8 Notices"
+#~ msgstr "Planet8 공지사항"
+
+#~ msgid ""
+#~ "There are no notices or failed to retrieve data. Please refresh this page."
+#~ msgstr ""
+#~ "공지사항이 없거나 데이터를 불러오지 못했습니다. 페이지를 새로고침 해주세"
+#~ "요."
+
+#~ msgid ""
+#~ "If you continue seeing the message to install the plugin, please enable "
+#~ "NPAPI settings by following these steps:"
+#~ msgstr ""
+#~ "플러그인 설치 완료 후에도 설치 팝업이 반복해서 나온다면, 다음 단계를 수행"
+#~ "하여 NPAPI를 활성화 해주세요:"
+
+#~ msgid "1. Enter <u>chrome://flags/#enable-npapi</u> on the address bar."
+#~ msgstr "1. 주소창에 <u>chrome://flags/#enable-npapi</u> 를 입력해 주세요."
+
+#~ msgid "2. Enable NPAPI."
+#~ msgstr "2. NPAPI를 활성화 해주세요."
+
+#~ msgid "3. Restart Chrome and refresh this page."
+#~ msgstr "3. 크롬을 재시작 하시고 이 페이지를 새로고침 해주세요."
+
+#~ msgid "Payment via credit card."
+#~ msgstr "신용카드로 결제를 진행합니다."
+
+#~ msgid "Payment via mobile phone."
+#~ msgstr "휴대폰 소액결제로 결제를 진행합니다."
+
+#~ msgid "Payment via real time account transfer."
+#~ msgstr "실시간 계좌이체로 결제를 진행합니다."
+
+#~ msgid "Payment via virtual account transfer."
+#~ msgstr "가상계좌로 결제를 진행합니다."
