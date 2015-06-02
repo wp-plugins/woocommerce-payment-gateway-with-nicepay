@@ -1,5 +1,5 @@
 === WooCommerce Payment Gateway with NicePay ===
-Contributors: massu0310
+Contributors: planet8co, massu0310
 Donate link: http://planet8.co
 Tags: payment gateway, woocommerce payment gateway, woocommerce, planet8, korea, nicepay gateway, nicepay
 Requires at least: 4.0
